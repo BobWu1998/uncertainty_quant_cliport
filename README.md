@@ -26,6 +26,7 @@ For out-of-distribution tasks:
 ```
 tasks=("stack-block-pyramid-seq-seen-colors-diff-sizes"
        "assembling-kits-seq-seen-colors-diff-sizes")
+       
 for task in "${tasks[@]}"
 do
   python cliport/demos.py n=1000 \
